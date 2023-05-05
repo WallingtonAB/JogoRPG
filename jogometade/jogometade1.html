@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Sistema</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  
+    <div id="menu">
+      <h1>Jogo RPG na metade</h1>
+      <p>Escolha o(s) inimigo(s):</p>
+      <input type="checkbox" name="enemy" value="0" checked>Goblin<br>
+      <input type="checkbox" name="enemy" value="1">Orc<br>
+      <input type="checkbox" name="enemy" value="2">Cavaleiro<br>
+      <input type="checkbox" name="enemy" value="3">Dragão<br><br>
+      <button onclick="startGame()">Começar jogo</button>
+    </div>
+    
+    <div id="gameArea">
+      <h2>Aventureiro</h2>
+      <p>HP: <span id="playerHP"></span></p>
+      <p>MP: <span id="playerMP"></span></p>
+      
+      <h2>Inimigo</h2>
+      <p>Nome: <span id="enemyName"></span></p>
+      <p>HP: <span id="enemyHP"></span></p>
+      <p>MP: <span id="enemyMP"></span></p>
+      
+      <button onclick="playerAttack()">Atacar</button>
+      <button onclick="playerHeal()">Curar -10MP</button>
+      <button onclick="playerAbility()">Habilidade -20MP</button>
+    </div>
+    
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

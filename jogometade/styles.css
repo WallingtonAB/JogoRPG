@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #menu {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #gameArea {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #playerStats, #enemyStats {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  #battleArea {
+    margin-top: 50px;
+  }
+  
